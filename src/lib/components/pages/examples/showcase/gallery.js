@@ -12,4 +12,10 @@ export let gallery=`
 ![ukiyo-e of tuxedo cat with purple fur slurping green spaghetti in front of a pink and black nebula](./gallery/spaghetti.png)
 
 ![dramatic Malabar chestnut plant](./gallery/malabar.png)
+
+![side view of a skeleton looking up full body photographic dramatic lighting dark background](./gallery/skeleton.png)
+
+![A swirling vortex of dust and gas, emitting infrared radiation, revealing the presence of a hidden black hole.](./gallery/vortex.png)
+
+![origins of counterculture vibrant stark contrast detailed broad brush strokes textured](./gallery/counterculture.png)
 `

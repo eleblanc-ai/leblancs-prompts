@@ -43,11 +43,9 @@
   const imageRenderer = {
     image(href, title, text) {
       return `
-        <figure>
+        
           <img src="${href}" alt="${text}" title="${title}" class="my-image">
-          <figcaption><b>Prompt:</b> "${text}""</figcaption>
-        </figure>
-      `;
+          <p><b>Prompt:</b> "${text}""</p>      `;
     }
   };
 
