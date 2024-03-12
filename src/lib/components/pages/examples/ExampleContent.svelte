@@ -10,13 +10,16 @@
   const imports = {
   a: () => import('./showcase/PromptComparison.svelte'),
       b: () => import('./showcase/DesignHighlights.svelte'),
-      c: () => import('./showcase/TabImplementation.svelte')
+      c: () => import('./showcase/TabImplementation.svelte'),
+      d: () => import('./showcase/MushroomGuide.svelte')
+
 };
 
   let component = 'z'
   if (outcome==="promt-collab") component='a';
   else if (outcome==="design-highlights") component='b'; 
   else if (outcome==="tab-implementation") component='c';
+  else if (outcome==="mushroom-guide") component='d';
 
   let selectedView = 'conversation';
 
