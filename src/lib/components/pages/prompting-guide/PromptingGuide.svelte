@@ -65,7 +65,7 @@
     marked.use({ renderer });
 </script>
 
-<Alert class="mt-16 text-center" color="blue">
+<Alert class="mt-16 mb-12 text-center" color="blue">
 <p> <span class="text-md">Info:</span>
     This guide is under development. Check back for updates!
 </p>
