@@ -13,7 +13,7 @@
 </script>
 <div class="w-[95%] md:w-[85%] xl:max-w-[65%] m-auto pt-16 flex flex-col pb-16">
     <h3 class="text-3xl mt-10 mb-4">Prompting Examples</h3>
-    <Badge color="purple" class="text-md">This section's implementation and writeups created with some assistance from Claude</Badge>
+    <Badge color="purple" class="text-md">This section's implementation and writeups were created with some assistance from Claude</Badge>
     <p class="mt-4">
 
        Here, you can explore some examples of conversations that I've had with Claude 3, and the outcomes of those conversations.</p>
