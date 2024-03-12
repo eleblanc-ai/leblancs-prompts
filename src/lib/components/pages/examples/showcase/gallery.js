@@ -11,7 +11,6 @@ export let gallery=`
 
 ![ukiyo-e of tuxedo cat with purple fur slurping green spaghetti in front of a pink and black nebula](./gallery/spaghetti.png)
 
-![dramatic Malabar chestnut plant](./gallery/malabar.png)
 
 ![side view of a skeleton looking up full body photographic dramatic lighting dark background](./gallery/skeleton.png)
 
