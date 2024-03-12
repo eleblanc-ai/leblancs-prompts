@@ -1,8 +1,6 @@
 <script>
   import { marked } from 'marked';
   import { GradientButton } from 'flowbite-svelte';
-  import { Badge } from 'flowbite-svelte'
-    import { Messages } from 'openai/resources/beta/threads/messages/messages.mjs';
   export let intro;
   export let conversation;
   export let outcome;
