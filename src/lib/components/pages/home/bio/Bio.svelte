@@ -7,15 +7,16 @@
 
 <div id="bio" class="flex flex-col
                      max-w-lg 
-                     max-h-[50%]
-                     h-5/6
-                     w-4/5
+                     max-h-[65%]
+                     h-6/7
+                     w-5/6
                      m-auto
                      float-none
                      md:float-right
                      pr-0
                      md:pr-10
                      z-0
+                     py-5
                      ">
     <BioAvatar/>
     <BioDescription/>
