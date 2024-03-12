@@ -1,0 +1,77 @@
+.my-link{
+    color:#20a9ad;
+    text-decoration: underline;
+}
+.my-h1 {
+    padding-top: 1em;
+    color: #89023E;
+    font-size: xx-large;
+}
+
+.my-h1 :global(a) {
+    color: #89023E;
+  }
+
+.my-h2 {
+    padding-top: 1em;
+    color: #EA638C;
+    font-size: x-large;
+}
+
+.my-h2 :global(a) {
+    color: #EA638C;
+  }
+.my-h3 {
+    padding-top: 1em;
+    color: #5b73dd;
+    font-size: large;
+
+}
+.my-h3 :global(a) {
+    color: #5b73dd;
+  }
+.my-code-block {
+    background-color: #30343F;
+    border: solid #1B2021;
+    border-radius: 15px;
+    color: greenyellow;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    white-space: pre-wrap;
+    word-break: break-word; 
+    overflow-wrap: break-word; 
+}
+
+.my-list {
+    padding-top:2em;
+    padding-bottom:2em;
+    padding-left: 40px;
+    list-style-position: outside;
+}
+
+.my-list-item {
+    margin-bottom: 5px; 
+}
+
+.my-list ol {
+    list-style-type: decimal; 
+}
+
+.my-list ul {
+    list-style-type: disc; 
+}
+p {
+    padding-top: 1rem;
+}
+/* Hide scrollbar for Chrome, Safari, Opera */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
