@@ -3,7 +3,7 @@
     import Body from './main/Body.svelte';
     import Footer from './main/Footer.svelte';
    
-    let current_page = "Prompting";
+    let current_page = "Home";
     //select-none
    
     $: hideScrollbar = ['Home', 'Prompting', 'About'].includes(current_page);
