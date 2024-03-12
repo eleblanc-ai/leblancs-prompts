@@ -69,7 +69,7 @@
 <p> <span class="font-medium">Info:</span>
     This guide is under development. Check back for updates!
 </p>
-<Badge class="m-auto mt-4" color="purple">Presented with assistance from Claude and ChatGPT.</Badge>
+<Badge class="m-auto mt-4 text-md" color="purple">Presented with assistance from Claude and ChatGPT.</Badge>
 
   </Alert>
   <div id="guide-container" class="mt-12 max-w-4xl m-auto overflow-auto max-h-[calc(100vh-6rem)] ">

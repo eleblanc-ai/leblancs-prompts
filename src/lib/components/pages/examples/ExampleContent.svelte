@@ -39,9 +39,8 @@
       `;
     }
   };
-
-     // Custom renderer for lists to handle nesting
-     const listRenderer = {
+  // Custom renderer for lists to handle nesting
+  const listRenderer = {
         list(body, ordered, start) {
             const type = ordered ? 'ol' : 'ul';
             const startAttr = (ordered && start !== 1) ? ` start="${start}"` : '';

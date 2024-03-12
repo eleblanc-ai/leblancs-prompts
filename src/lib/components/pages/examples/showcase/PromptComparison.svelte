@@ -18,14 +18,15 @@
         list(body, ordered, start) {
             const type = ordered ? 'ol' : 'ul';
             const startAttr = (ordered && start !== 1) ? ` start="${start}"` : '';
-            return `<${type} class="my-list"${startAttr}>${body}</${type}>`;
+            const listClass = ordered ? 'list-decimal' : 'list-disc';
+            return `<${type} class="${listClass} list-inside ml-4"${startAttr}>${body}</${type}>`;
         }
-    };
+     };
 
     // Custom renderer for list items to handle nested lists
     const listItemRenderer = {
         listitem(text) {
-            return `<li class="my-list-item">${text}</li>`;
+        return `<li>${text}</li>`;
         }
     };
     // Define a custom code block renderer for Markdown

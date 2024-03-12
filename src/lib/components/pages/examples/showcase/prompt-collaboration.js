@@ -261,9 +261,9 @@ I want to create a new section that showcases examples of my prompt engineering 
 
 I'd like you to please suggest three approaches to implementing this new web app section. For each, please provide the following:
 
-1.  A high-level description of the approach
-2.  An ASCII diagram depicting its appearance
-3.  A caption that walks through the ASCII diagram
+1. A high-level description of the approach
+2. An ASCII diagram depicting its appearance
+3. A caption that walks through the ASCII diagram
 
 The diagrams and captions should be detailed enough for the average technologist to quickly grasp the key aspects of each approach. Aim for succinctness and clarity.
 

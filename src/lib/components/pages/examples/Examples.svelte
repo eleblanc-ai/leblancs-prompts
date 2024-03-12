@@ -10,7 +10,7 @@
 </script>
 <div class="w-[85%] xl:max-w-[65%] m-auto pt-16 flex flex-col pb-16">
     <h3 class="text-3xl mt-10 mb-4">Prompting Examples</h3>
-    <Badge color="purple">Section implementation and writeups created with assistance from Claude</Badge>
+    <Badge color="purple" class="text-md">Section implementation and writeups created with assistance from Claude</Badge>
     <p class="mt-4">
 
        Here, you can explore some examples of conversations that I've had with Claude 3, and the outcomes of those conversations. Click one of the tabs below to select an example. To navigate through an example, use the "Conversation" and "Outcome" buttons located at the top of the example container.</p>
