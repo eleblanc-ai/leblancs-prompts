@@ -16,6 +16,9 @@
 
        Here, you can explore some examples of conversations that I've had with Claude 3, and the outcomes of those conversations. Click one of the tabs below to select an example. To navigate through an example, use the "Conversation" and "Outcome" buttons located at the top of the example container.</p>
     
+       <p>By exploring both the conversation and the outcomes, you can gain insights into the prompt engineering process and see the impact of effective techniques on the quality of the AI-generated results.</p>
+
+
        <Accordion class="py-4">
         <AccordionItem>
           <span slot="header">How to use this page</span>
@@ -24,8 +27,7 @@
             
             <p>Clicking the "Result" button will reveal the outcome of the interaction, which may include a completed document, a comparison of before and after versions, or the implementation of a component created by the AI. The outcome presentation will also include highlights of the interaction and an explanation of why the outcome is effective. </p>
                
-         <p>By exploring both the conversation and the outcomes, you can gain insights into the prompt engineering process and see the impact of effective techniques on the quality of the AI-generated results.
-         </p>
+        
         </AccordionItem>
       </Accordion>
 

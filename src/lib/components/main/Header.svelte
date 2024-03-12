@@ -1,10 +1,11 @@
 <script>
-    import { Navbar, NavBrand, NavLi, NavUl,NavHamburger } from 'flowbite-svelte';
+    import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 
     export let current_page;
-    
-    const changeView = async (id) =>{
-        current_page = id
+
+    const changeView = async (id, toggle) => {
+        current_page = id;
+        toggle(); // Hide the menu after selecting a menu item
     }
 </script>
 
@@ -21,14 +22,14 @@
         <NavBrand href="/">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <!-- svelte-ignore a11y-no-static-element-interactions -->
-            <span on:click={() => changeView("Home")} class="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">LeBlanc's Prompts</span>
+            <span on:click={() => changeView("Home", toggle)} class="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">LeBlanc's Prompts</span>
         </NavBrand>
         <NavHamburger on:click={toggle} />
         <NavUl {hidden}>
-            <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("Home")}>Home</NavLi>
-            <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("Prompting")}>Prompting Guide</NavLi>
-            <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("Examples")}>Examples</NavLi>
-            <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("About")}>About</NavLi>
+            <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("Home", toggle)}>Home</NavLi>
+            <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("Prompting", toggle)}>Prompting Guide</NavLi>
+            <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("Examples", toggle)}>Examples</NavLi>
+            <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("About", toggle)}>About</NavLi>
         </NavUl>
     </Navbar> 
 </div>
