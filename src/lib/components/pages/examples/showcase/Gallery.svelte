@@ -44,7 +44,7 @@
     image(href, title, text) {
       return `
         
-          <img src="${href}" alt="${text}" title="${title}" class="my-image">
+          <img src="${href}" alt="${text}" title="${text}" class="my-image">
           <p><b>Prompt:</b> "${text}""</p>      `;
     }
   };

@@ -45,7 +45,7 @@
     image(href, title, text) {
       return `
         <figure>
-          <img src="${href}" alt="${text}" title="${title}" class="my-image">
+          <img src="${href}" alt="${text}" title="${text}" class="my-image">
           <figcaption>${text}</figcaption>
         </figure>
       `;
