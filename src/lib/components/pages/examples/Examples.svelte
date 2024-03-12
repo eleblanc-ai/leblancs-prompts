@@ -9,10 +9,11 @@
     import { showcase_design_convo, showcase_design_intro } from './showcase/showase-interface-design';
     import { implement_tab_convo,implement_tab_intro} from './showcase/implement-new-tab';
     import { mushroom_guide_conversation, mushroom_guide_intro } from './showcase/mushroom-guide'
+    import Gallery from './showcase/Gallery.svelte'
 </script>
 <div class="w-[95%] md:w-[85%] xl:max-w-[65%] m-auto pt-16 flex flex-col pb-16">
     <h3 class="text-3xl mt-10 mb-4">Prompting Examples</h3>
-    <Badge color="purple" class="text-md">This section;s implementation and writeups created with some assistance from Claude</Badge>
+    <Badge color="purple" class="text-md">This section's implementation and writeups created with some assistance from Claude</Badge>
     <p class="mt-4">
 
        Here, you can explore some examples of conversations that I've had with Claude 3, and the outcomes of those conversations.</p>
@@ -66,6 +67,12 @@
                             title="Writing a Mushroom Growing Guide with Claude"
                             outcome="mushroom-guide"/>
         </TabItem>
+        <TabItem >
+          <span class="text-[1rem]" slot="title">DALL-E Art Gallery</span>
+
+          <Gallery/>
+      </TabItem>
+        
     </Tabs>
     
 </div>

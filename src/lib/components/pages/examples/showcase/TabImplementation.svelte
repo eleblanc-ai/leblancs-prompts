@@ -1,7 +1,5 @@
 <script>
-    import { initial_prompt } from "./prompt-collaboration";
-    import { final_prompt } from "./prompt-collaboration";
-
+    import { Badge } from 'flowbite-svelte'
     import { marked } from "marked";
 
     // Define a custom heading renderer for Markdown
@@ -68,6 +66,11 @@
   <div class="prompt-comparison flex flex-col md:flex-row gap-8">
     <div class="prompt-container bg-gray-100 p-6 rounded-lg">
       <h2 class="text-xl font-bold mb-4">Final Component</h2>
+      <div  class="m-auto">
+        <Badge large color="pink">Interactive! Click the "Conversation" and "Outcome" buttons.</Badge>
+
+      </div>
+
       <div class="border border-gray-300 p-4 pb-8">
         <h2 class="text-xl font-bold mb-4">Selected Example Content</h2>
         <div class="flex justify-center mb-4">
