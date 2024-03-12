@@ -21,14 +21,14 @@
 
 <div id="header" class="basis-10
                         flex flex-row
-                        relative bg-white">         
+                        relative bg-white z-7000">         
     <Navbar let:hidden let:toggle class="
                                          m-auto 
                                          py-0 
                                          h-15
                                          fixed
                                          shadow-lg
-                                         z-1000">
+                                         ">
         <NavBrand href="/">
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <!-- svelte-ignore a11y-no-static-element-interactions -->
