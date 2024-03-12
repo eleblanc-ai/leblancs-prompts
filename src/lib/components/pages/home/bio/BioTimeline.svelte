@@ -3,10 +3,10 @@
     import { BriefcaseSolid, UserSolid} from 'flowbite-svelte-icons';
 </script>
 <div id="bio-timeline" class="pt-7">
-    <h5 class="text-lg font-bold text-center text-gray-900 bg-green-300 dark:text-white mb-10 shadow">Prompting Experience</h5>
+    <h5 class="text-lg font-bold text-center text-gray-900 bg-green-300 dark:text-white mb-10 shadow z-0">Prompting Experience</h5>
 
-    <div class="pl-3 ">
-        <Timeline order="vertical">
+    <div class="pl-3 -z-50">
+        <Timeline class="-z-50" order="vertical">
             <TimelineItem title="Remotasks" date="June 2023-present · Contract" classLi="mb-2" classH3="text-md">
                 <svelte:fragment slot="icon">
                     <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-primary-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">

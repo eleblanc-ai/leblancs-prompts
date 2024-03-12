@@ -1,5 +1,5 @@
 <script>
-    import { Navbar, NavBrand, NavLi, NavUl } from 'flowbite-svelte';
+    import { Navbar, NavBrand, NavLi, NavUl,NavHamburger } from 'flowbite-svelte';
 
     export let current_page;
     
@@ -10,7 +10,7 @@
 
 <div id="header" class="basis-10
                         flex flex-row
-                        relative">         
+                        relative bg-white">         
     <Navbar let:hidden let:toggle class="
                                          m-auto 
                                          py-0 
@@ -23,6 +23,7 @@
             <!-- svelte-ignore a11y-no-static-element-interactions -->
             <span on:click={() => changeView("Home")} class="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">LeBlanc's Prompts</span>
         </NavBrand>
+        <NavHamburger on:click={toggle} />
         <NavUl {hidden}>
             <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("Home")}>Home</NavLi>
             <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("Prompting")}>Prompting Guide</NavLi>

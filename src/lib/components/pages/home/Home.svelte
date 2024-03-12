@@ -4,7 +4,7 @@
 </script>
 
 <div id="body" class="h-full pt-16 
-                      flex flex-col md:flex-row">
+                      flex flex-col md:flex-row -z-50">
     <div id="body-bio" class="basis-1/2">
         <Bio/>
         

@@ -15,6 +15,7 @@
                      md:float-right
                      pr-0
                      md:pr-10
+                     z-0
                      ">
     <BioAvatar/>
     <BioDescription/>
