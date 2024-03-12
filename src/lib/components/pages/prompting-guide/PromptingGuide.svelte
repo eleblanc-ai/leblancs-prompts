@@ -66,7 +66,7 @@
 </script>
 
 <Alert class="mt-16 text-center" color="blue">
-<p> <span class="font-medium">Info:</span>
+<p> <span class="text-md">Info:</span>
     This guide is under development. Check back for updates!
 </p>
 <Badge class="m-auto mt-4 text-md" color="purple">Presented with assistance from Claude and ChatGPT.</Badge>
