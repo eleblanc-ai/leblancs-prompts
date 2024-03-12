@@ -67,7 +67,7 @@
   marked.use({ renderer });
 </script>
 
-<div class="p-4 mb-20 overflow-auto bg-gray-100 min-h-screen">
+<div class="md:p-4 mb-20 overflow-auto bg-gray-100 min-h-screen">
   <h3 class="text-2xl mb-4">{title}</h3>
   <div class="mb-6 text-base">
     {@html marked(intro)}
@@ -97,7 +97,7 @@
     <div class="overflow-y-auto space-y-4">
       {#each conversation as message}
         <div 
-        class="p-4 rounded-lg transition-shadow duration-300 w-11/12  border-black"
+        class="p-4 rounded-lg transition-shadow duration-300 md:w-11/12  border-black"
         class:bg-blue-100={message.sender === 'llm'}  
         class:bg-green-100={message.sender === 'user'}
         class:shadow-md={message.sender === 'llm' || message.sender === 'user' }  
