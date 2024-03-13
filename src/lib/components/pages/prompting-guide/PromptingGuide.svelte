@@ -75,9 +75,9 @@
   <div id="guide-container" class="mt-12 max-w-4xl m-auto overflow-auto max-h-[calc(100vh-6rem)] ">
   
 
-    <div id="guide" class="px-12">
+    <div id="guide" class="px-12 mb-36">
         {@html marked(prompting_guide)}
     </div>
 
-    <div class="pb-36"></div>
+    <div class="mb-36"></div>
 </div>
