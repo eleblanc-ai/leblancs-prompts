@@ -34,7 +34,7 @@
             <!-- svelte-ignore a11y-no-static-element-interactions -->
             <span on:click={() => changeView("Home", toggle)} class="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">LeBlanc's Prompts</span>
         </NavBrand>
-        <NavHamburger on:click={toggle} class="lg:hidden" />
+        <NavHamburger on:click={toggle} class="lg:hidden z-1000" />
         <NavUl class="hidden-mobile lg:flex">
             <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("Home", toggle)}>Home</NavLi>
             <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("Prompting", toggle)}>Prompting Guide</NavLi>

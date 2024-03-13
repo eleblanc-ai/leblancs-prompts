@@ -45,7 +45,7 @@
       return `
         
           <img src="${href}" alt="${text}" title="${text}" class="my-image">
-          <p><b>Prompt:</b> "${text}""</p>      `;
+          <p><b>Prompt:</b> "${text}"</p>      `;
     }
   };
 
