@@ -79,5 +79,5 @@
         {@html marked(prompting_guide)}
     </div>
 
-    <div class="pb-12"></div>
+    <div class="pb-36"></div>
 </div>
