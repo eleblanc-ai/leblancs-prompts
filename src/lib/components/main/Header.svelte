@@ -35,7 +35,7 @@
             <span on:click={() => changeView("Home", toggle)} class="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">LeBlanc's Prompts</span>
         </NavBrand>
         <NavHamburger on:click={toggle} class="lg:hidden z-1000" />
-        <NavUl class="hidden-mobile lg:flex">
+        <NavUl class="hidden-mobile lg:flex z-1000">
             <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("Home", toggle)}>Home</NavLi>
             <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("Prompting", toggle)}>Prompting Guide</NavLi>
             <NavLi class="text-lg font-semibold cursor-pointer" on:click={() => changeView("Examples", toggle)}>Examples</NavLi>
