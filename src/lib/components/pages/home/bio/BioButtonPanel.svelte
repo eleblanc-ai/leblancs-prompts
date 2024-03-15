@@ -5,7 +5,7 @@
 <div id="bio-button-panel" class="flex flex-row xs:flex-col
                                   m-auto 
                                   text-center
-                                  pb-8">
+                                  pb-4">
 
     <!-- <div class="basis-1/3 p-1">
         <a href="LeBlanc_resume_2023.pdf">
