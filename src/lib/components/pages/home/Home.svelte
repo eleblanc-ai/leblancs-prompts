@@ -11,7 +11,7 @@
         <Bio/>
         
     </div>
-    <div id="body-stats" class="basis-1/2 {hide_stats ? '-z-50' : ''}">
+    <div id="body-stats" class="basis-1/2 -z-50">
         <Stats/>
     </div> 
     

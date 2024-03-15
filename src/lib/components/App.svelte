@@ -6,7 +6,7 @@
     let current_page = "Home";
     //select-none
    
-    let hide_stats = true;
+    let hide_stats = false;
 
     $: hideScrollbar = ['Home', 'Prompting', 'About'].includes(current_page);
    </script>
