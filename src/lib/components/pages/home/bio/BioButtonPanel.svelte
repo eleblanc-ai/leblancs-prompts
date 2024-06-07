@@ -14,7 +14,7 @@
     </div> -->
 
     <div class="basis-1/3 p-1">
-        <a href="LeBlanc_CV_2024.pdf">
+        <a href="LeBlanc_full_CV_052024.pdf">
             <GradientButton class="shadow" color="pinkToOrange">CV</GradientButton>        
         </a>
     </div>
