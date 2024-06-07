@@ -13,7 +13,7 @@ From late 2021 to early 2023, I independently explored logic-based techniques fo
 
 
 ## Downloads
-  * [Full CV](./LeBlanc_CV_2024.pdf)
+  * [Full CV](./LeBlanc_full_CV_052024.pdf)
   * [PhD dissertation](./leblanc-dissertation-full.pdf)
   
 ## Links
