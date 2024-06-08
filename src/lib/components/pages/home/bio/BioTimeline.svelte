@@ -10,7 +10,7 @@
         <TimelineItem title="ThinkCERCA" date="April 2024-present" classLi="mb-2" classH3="text-md">
                         <svelte:fragment slot="icon">
                             <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-primary-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
-                            <UserSolid class="w-3 h-3 text-primary-600 dark:text-primary-400" />
+                            <BriefcaseSolid class="w-3 h-3 text-primary-600 dark:text-primary-400" />
                             </span>
                         </svelte:fragment>
                         <p class="text-sm font-normal text-gray-500 dark:text-gray-400">Developing LLM prompting techniques for automated writing feedback, systematically evaluating prompt performance, providing support to understand prompt engineering best practices. 
