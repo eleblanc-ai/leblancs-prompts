@@ -13,8 +13,7 @@
                                     <BriefcaseSolid class="w-3 h-3 text-primary-600 dark:text-primary-400" />
                                     </span>
                                 </svelte:fragment>
-                                <p class="text-sm font-normal text-gray-500 dark:text-gray-400">Leading the design and development of AI products to support student learning outcomes. Collaborating across teams to align AI initiatives with strategic goals, ensuring quality, scalability, and effective execution. Driving communication and project tracking to deliver impactful AI solutions across the organization.
-        </p>
+                                <p class="text-sm font-normal text-gray-500 dark:text-gray-400">Leading the design and development of AI products to support student learning outcomes. Collaborating across teams to align AI initiatives with strategic goals, ensuring quality, scalability, and effective execution. 
                             </TimelineItem>
         <TimelineItem title="ThinkCERCA - Prompt Engineer" date="April 2024-July 2024 · Contract" classLi="mb-2" classH3="text-md">
                         <svelte:fragment slot="icon">
