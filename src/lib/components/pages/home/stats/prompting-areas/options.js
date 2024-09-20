@@ -18,7 +18,7 @@ export const options = {
         enabledOnSeries: undefined,
       },
 
-    series: [1,1,1,1,1,1],
+    series: [1,1,1,1,1,1,1],
     colors: ["#5ad45a", "#00b7c7", "#0d88e6","#1a53ff", "#4421af", "#7c1158", "#b30000"],
     chart: {
         height: 270,
